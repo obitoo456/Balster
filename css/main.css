@@ -1,0 +1,137 @@
+:root{
+    --sec-color:#f4f4f4;
+    --main-color : #FFD321;
+    --the-color : #404040;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-btn{
+    border: 3px solid var(--the-color);
+    transition: .3s;
+}
+
+.main-title h2{
+    font-size: 50px;
+}
+.main-title p{
+    font-size: 13px;
+}
+
+.main-btn:hover{
+    color: white;
+    background-color: var(--the-color);
+}
+
+.navbar{
+    background-color:var(--sec-color);
+    /* position: absolute; */
+}
+.navbar ul{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+.navbar ul li{
+    transition: .3s;
+}
+.navbar ul li.active,
+.navbar ul li:hover{
+
+    background-color: var(--main-color);
+    
+}
+.landing{
+    background-image: url("../images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.landing h1{
+    font-size: 60px;
+}
+
+
+.about{}
+.about .box p{
+    font-size: 14px;
+}
+.about .box svg{
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: white;
+}
+.about .state1 .st{
+    height: 4px;
+    background-color: #AFAFAF;
+}
+.about .state1 .st span{
+    background-color: var(--main-color);
+    width: 70%;
+    height: 100%;
+}
+
+.portfolio{
+    background-color: var(--sec-color);
+}
+
+.portfolio .links{
+    color: #999999;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.portfolio .links li{
+    transition: .3s;
+}
+.portfolio .links li.active,
+.portfolio .links li:hover{
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    background-color: var(--sec-color);
+}
+.contact .row svg{
+    font-size: 33px;
+}
+.contact .row input,
+.contact .row textarea
+{
+    border: 1px solid #999999;
+}
+.contact .row textarea::placeholder,
+.contact .row input::placeholder{
+    color: #999999;
+    font-size: 16px;
+}
+.contact .sbt{
+    background-color: white;
+    font-size: 14px ;
+    border: 2px solid #999999;
+    transition: .3s;
+}
+.contact .sbt:hover{
+    background-color: #999999;
+    color: white;
+}
+.rs{
+    background-image: url("../images/footer-bg.jpg");
+    background-position: center;
+}
+.rs svg{
+    font-size: 28px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    transition: .3s;
+}
+.rs svg:hover{
+    background-color: var(--main-color);
+}
+.footer{
+    background-color: var(--the-color);
+}
